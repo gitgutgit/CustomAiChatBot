@@ -10,8 +10,17 @@ import toml
 # PREREQUISITES
 #######################################
 # Load custom secrets
-with open("api_secrets.toml", "r") as f:
-    secrets = toml.load(f)
+try:
+    with open("api_secrets.toml", "r") as f:
+        secrets = toml.load(f)
+except FileNotFoundError:
+    secrets = {
+        "openai": {
+            "api_key": st.secrets["OPENAI_API_KEY"],
+            "assistant_id": st.secrets["OPENAI_ASSISTANT_ID"]
+        }
+    }
+
 
 
 st.set_page_config(
@@ -20,9 +29,11 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed",
 )
+api_key_secret = secrets["openai"]["api_key"]
 
 # Setting OpenAI API key and Assistant ID
-client = OpenAI(api_key=secrets["openai"]["api_key"])
+client = OpenAI(api_key=api_key_secret)
+
 
 # Use the assistant_id from the custom secrets
 assistant_id = secrets["openai"]["assistant_id"]
@@ -156,7 +167,7 @@ def on_text_input(status_placeholder):
                 completed = True
 
             else:
-                time.sleep(0.1)
+                time.ßsleep(0.1)
 
     messages = client.beta.threads.messages.list(get_thread_id()).data
     st.session_state[conversation_state] = [
