@@ -1,6 +1,7 @@
 
 # TVCF 챗봇 구동 방법 안내
 
+(app.py is recent version of tvcf_customercenter.py)
 ## 0.5V 기준 (구버전 설명)
 
 1. **벡터 저장소 및 파일 업로드**  
