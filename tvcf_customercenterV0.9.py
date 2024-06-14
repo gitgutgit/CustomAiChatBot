@@ -10,9 +10,18 @@ import toml
 # PREREQUISITES
 #######################################
 # Load custom secrets
-with open("api_secrets.toml", "r") as f:
-    secrets = toml.load(f)
+try:
+    with open("api_secrets.toml", "r") as f:
+        secrets = toml.load(f)
+except FileNotFoundError:
+    secrets = {
+        "openai": {
+            "api_key": st.secrets["OPENAI_API_KEY"],
+            "assistant_id": st.secrets["OPENAI_ASSISTANT_ID"]
+        }
+    }
 
+#current is 0.9v continue..
 
 st.set_page_config(
     page_title="Wanderlust",
@@ -20,9 +29,11 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed",
 )
+api_key_secret = secrets["openai"]["api_key"]
 
 # Setting OpenAI API key and Assistant ID
-client = OpenAI(api_key=secrets["openai"]["api_key"])
+client = OpenAI(api_key=api_key_secret)
+
 
 # Use the assistant_id from the custom secrets
 assistant_id = secrets["openai"]["assistant_id"]

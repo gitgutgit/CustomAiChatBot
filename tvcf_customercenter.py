@@ -167,7 +167,7 @@ def on_text_input(status_placeholder):
                 completed = True
 
             else:
-                time.ßsleep(0.1)
+                time.sleep(0.1)
 
     messages = client.beta.threads.messages.list(get_thread_id()).data
     st.session_state[conversation_state] = [
