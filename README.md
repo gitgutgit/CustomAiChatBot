@@ -33,7 +33,7 @@
 3. **고객 센터 실행**  
    `streamlit run tvcf_customercenter.py` 실행
 
-# 버전 히스토리
+# 버전 히스토리 
 
 ## tvcf_documentUploader
 - **V0.5**: create assistant와 분리
@@ -46,6 +46,7 @@
 - **V0.6**: Uploader, Creator 분리에 따라 코드 분리
 - **V0.7**: 불필요한 메시지 출력 수정
 - **V0.8**: `api_secrets.toml` 파일에 Open API 및 Assistant API 저장 (보안 강화)
+- **V0.9**: `api_secrets.toml` 파일존재하지않을때 내부 secrets.toml 에 작동하게 만듬
 
 ## tvcf_Assistant_creator
 - **V0.5**: Create 기능 담당

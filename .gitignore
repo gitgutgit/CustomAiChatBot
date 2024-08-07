@@ -1,2 +1,5 @@
+documents
 .openai
 api_secrets.toml
+api_secrets_old.toml
+api_secrets_old2.toml

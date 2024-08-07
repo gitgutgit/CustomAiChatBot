@@ -1,0 +1,108 @@
+2024-08-07 13:47:27,420 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 13:47:40,509 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/assistants/asst_OOkAEkJH2hqIOkDEceO7hCWW "HTTP/1.1 200 OK"
+2024-08-07 13:47:40,776 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_dQv7GQiBSv3aWCJ3B7Io9Ydc/messages "HTTP/1.1 200 OK"
+2024-08-07 13:47:41,455 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_dQv7GQiBSv3aWCJ3B7Io9Ydc/runs "HTTP/1.1 200 OK"
+2024-08-07 13:47:52,128 - __main__ - INFO - User Input: 고객센터 시간 알려줘
+2024-08-07 13:47:52,128 - __main__ - INFO - Assistant Response (Cleaned): TVCF 고객센터 운영 시간은 다음과 같습니다:
+
+- **챗봇 운영 시간**: 24시간
+- **근무 시간**: 평일 09:00~18:00
+- **휴무**: 토요일, 일요일, 공휴일
+- **점심 시간**: 12:00~13:00. 
+
+전화문의나 관련 사항은 고객센터 연락처로 문의하시면 됩니다. 
+
+연락처:
+- 전화: 02-3447-0101
+- 팩스: 02-3447-1231
+
+더 궁금한 사항이 있으시면 언제든지 고객센터로 연락해 주세요.
+2024-08-07 13:48:30,300 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 13:48:30,300 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 13:48:50,533 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 13:51:08,294 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 13:51:39,269 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 13:51:40,948 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 13:52:17,955 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 13:58:10,382 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 13:58:44,796 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/assistants/asst_OOkAEkJH2hqIOkDEceO7hCWW "HTTP/1.1 200 OK"
+2024-08-07 13:58:45,136 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_j2EEsYoE8dpYko42TnvRZO1n/messages "HTTP/1.1 200 OK"
+2024-08-07 13:58:45,696 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_j2EEsYoE8dpYko42TnvRZO1n/runs "HTTP/1.1 200 OK"
+2024-08-07 13:58:51,169 - __main__ - INFO - User Input: tvcf 고객센터 시간은?
+2024-08-07 13:58:51,169 - __main__ - INFO - Assistant Response (Cleaned): TVCF 고객센터 운영 시간은 평일 오전 9시부터 오후 6시까지입니다. 챗봇은 24시간 운영됩니다.
+2024-08-07 13:58:55,643 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:01:28,086 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:01:28,125 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:01:36,080 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:02:30,015 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:03:12,017 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:03:13,043 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:06:12,343 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:06:33,465 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:07:02,072 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:07:22,843 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:07:31,576 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/assistants/asst_OOkAEkJH2hqIOkDEceO7hCWW "HTTP/1.1 200 OK"
+2024-08-07 14:07:31,966 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_ePQNPFsuvEQfI946FvgfmTRk/messages "HTTP/1.1 200 OK"
+2024-08-07 14:07:32,804 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_ePQNPFsuvEQfI946FvgfmTRk/runs "HTTP/1.1 200 OK"
+2024-08-07 14:07:39,226 - __main__ - INFO - User Input: 고객센터 문의 가능시간 알려줘
+2024-08-07 14:07:39,227 - __main__ - INFO - Assistant Response (Cleaned): TVCF 고객센터의 운영 시간은 다음과 같습니다:
+
+- **평일**: 오전 9시부터 오후 6시까지 운영
+- **토요일, 일요일 및 공휴일**: 휴무
+- **점심시간**: 12시부터 1시까지
+
+더 자세한 문의는 TVCF 고객센터에 (02) 3447-0101로 전화 주시면 됩니다.
+2024-08-07 14:08:55,151 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:15:56,258 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:16:26,333 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:16:39,097 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/assistants/asst_OOkAEkJH2hqIOkDEceO7hCWW "HTTP/1.1 200 OK"
+2024-08-07 14:16:39,437 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_8NtD1f2FN5xpmwupSR4rqiQn/messages "HTTP/1.1 200 OK"
+2024-08-07 14:16:40,095 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_8NtD1f2FN5xpmwupSR4rqiQn/runs "HTTP/1.1 200 OK"
+2024-08-07 14:16:43,206 - __main__ - INFO - User Input: 너가 도와줄수 있는것으?
+2024-08-07 14:16:43,206 - __main__ - INFO - Assistant Response (Cleaned): 물론입니다! TVCF와 관련된 궁금한 사항이 있으면 언제든 질문해 주세요. 제가 도와드릴 수 있도록 최선을 다하겠습니다. 어떤 도움을 필요로 하시나요?
+2024-08-07 14:18:33,893 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:18:42,073 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/assistants/asst_OOkAEkJH2hqIOkDEceO7hCWW "HTTP/1.1 200 OK"
+2024-08-07 14:18:42,465 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_FTvs1ZegsDLz3pHJN1AE2XCM/messages "HTTP/1.1 200 OK"
+2024-08-07 14:18:43,079 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_FTvs1ZegsDLz3pHJN1AE2XCM/runs "HTTP/1.1 200 OK"
+2024-08-07 14:18:50,098 - __main__ - INFO - User Input: 고객센터 문의 시간은
+2024-08-07 14:18:50,099 - __main__ - INFO - Assistant Response (Cleaned): TVCF 고객센터의 문의 가능 시간은 다음과 같습니다:
+
+1. **근무 시간**: 평일 09:00~18:00
+2. **점심 시간**: 12:00~13:00
+3. **휴무**: 토요일, 일요일 및 공휴일.
+
+추가로 챗봇은 24시간 운영됩니다.
+
+다른 문의사항이 있으시면 언제든지 알려주세요.
+2024-08-07 14:19:23,243 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:19:30,509 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/assistants/asst_OOkAEkJH2hqIOkDEceO7hCWW "HTTP/1.1 200 OK"
+2024-08-07 14:19:31,960 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_8ZrvFGqx6MFGPxP4I32zwscA/messages "HTTP/1.1 200 OK"
+2024-08-07 14:19:32,652 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_8ZrvFGqx6MFGPxP4I32zwscA/runs "HTTP/1.1 200 OK"
+2024-08-07 14:19:39,429 - __main__ - INFO - User Input: 고객센터 문의 시간
+2024-08-07 14:19:39,431 - __main__ - INFO - Assistant Response (Cleaned): TVCF 고객센터의 운영 시간은 평일 오전 9시부터 오후 6시까지입니다. 토요일 및 일요일, 공휴일은 휴무이며, 점심시간은 12시부터 13시까지입니다. 추가 문의 사항이 있으시면 전화번호 (02) 3447-0101로 연락 주시기 바랍니다.
+2024-08-07 14:21:55,442 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:21:55,536 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:22:05,075 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/assistants/asst_OOkAEkJH2hqIOkDEceO7hCWW "HTTP/1.1 200 OK"
+2024-08-07 14:22:05,426 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_Sq97ih20KcIgjbwoJEQRRvpw/messages "HTTP/1.1 200 OK"
+2024-08-07 14:22:42,390 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:22:42,903 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:22:42,990 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:22:50,651 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/assistants/asst_OOkAEkJH2hqIOkDEceO7hCWW "HTTP/1.1 200 OK"
+2024-08-07 14:22:50,957 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_Dj1EkAVJjBK7ZxXu1SmewrJ1/messages "HTTP/1.1 200 OK"
+2024-08-07 14:23:23,404 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:23:31,467 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/assistants/asst_OOkAEkJH2hqIOkDEceO7hCWW "HTTP/1.1 200 OK"
+2024-08-07 14:23:31,775 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_r2hiW9isdrB0xd7IZNCRy2NY/messages "HTTP/1.1 200 OK"
+2024-08-07 14:23:32,893 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_r2hiW9isdrB0xd7IZNCRy2NY/runs "HTTP/1.1 200 OK"
+2024-08-07 14:23:38,914 - __main__ - INFO - User Input: 답장 가능한시간
+2024-08-07 14:23:38,914 - __main__ - INFO - Assistant Response (Cleaned): TVCF 고객센터의 운영 시간은 다음과 같습니다:
+
+- **평일**: 오전 9시 ~ 오후 6시
+- **점심시간**: 오전 12시 ~ 오후 1시
+- **주말 및 공휴일**: 휴무
+
+추가적으로, 챗봇은 24시간 운영되고 있습니다.
+2024-08-07 14:24:44,029 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:24:44,111 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:24:44,183 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-08-07 14:24:49,211 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/assistants/asst_OOkAEkJH2hqIOkDEceO7hCWW "HTTP/1.1 200 OK"
+2024-08-07 14:24:49,528 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_0zB5FKHa0fI70Xpe3WRvwhZY/messages "HTTP/1.1 200 OK"
