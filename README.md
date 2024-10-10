@@ -1,6 +1,6 @@
 # TVCF Chatbot Guide
 
-- [English Version](English-version)
+- [English Version](#English-version)
 - [한국어 버전](#한국어-버전)
 
 ## English Version
